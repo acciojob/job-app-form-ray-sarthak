@@ -15,7 +15,7 @@
 		</fieldset>
 		<fieldset>
 			<label for="email">Email</label>
-			<input type="email" id="email" name="email" placeholder="enter your mail-id">
+			<input type="email" requiredid="email" name="email" placeholder="enter your mail-id">
 		</fieldset>
 		<fieldset>
 			<label for="gender">Gender</label>
@@ -27,8 +27,8 @@
 		</fieldset>
 		<fieldset>
 			<label for="Brands">Laptop Brands</label>
-			<select name="laptops" id="laptops" required>
-			<option value="" disabled selected>--Please choose an option--</option>
+			<select name="laptops" required id="laptops" required>
+			<option value="" select laptop>--Please choose an option--</option>
 			<option value="apple">Apple</option>
 			<option value="asus">Asus</option>
 			<option value="HP">HP</option>
@@ -40,13 +40,14 @@
 		</fieldset>
 		<fieldset>
 			<label for="dob">dob</label>
-			<input type="date" required id="dob" name="dob">
+			<input type="date"  required id="dob" name="dob">
 		</fieldset>
 		
 		<fieldset>
 			<label for="password">Enter Your Password</label>
 			<input type="password" required id="password" name="password" placeholder="Enter password">
 		</fieldset>
+		<button>Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
